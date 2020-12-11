@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="232.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.VendaController">
+   <children>
+      <TextField fx:id="TextFieldQtd" layoutX="94.0" layoutY="77.0" prefHeight="25.0" prefWidth="45.0" />
+      <Text layoutX="22.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantidade" />
+      <Text layoutX="22.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Produto:" />
+      <ComboBox fx:id="cbCategorias" layoutX="94.0" layoutY="41.0" prefHeight="25.0" prefWidth="108.0" promptText="Selecione" />
+      <TextArea fx:id="TextAreaLista" layoutX="224.0" layoutY="14.0" prefHeight="200.0" prefWidth="279.0" />
+      <Button layoutX="124.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnVoltar" text="Voltar" />
+      <Button layoutX="26.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnVender" text="Vender" />
+   </children>
+</AnchorPane>
